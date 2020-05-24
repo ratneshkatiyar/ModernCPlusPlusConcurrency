@@ -75,7 +75,7 @@ public:
         }
         else
         {
-            ref = q.front();
+            ref = *(q.front().get());
             q.pop();
             return true;
         }
